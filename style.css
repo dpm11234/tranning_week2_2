@@ -17,14 +17,6 @@ body {
   color: #DE5021 !important;
 }
 
-.white-color {
-  color: #fff;
-}
-
-.barroco-logo img {
-  width: 40%;
-}
-
 /* font */
 
 .anton-font {
@@ -93,6 +85,10 @@ body {
   color: #8B0000;
 }
 
+.white-color {
+  color: #fff;
+}
+
 /* icon */
 .backslash-icon::after {
   position: absolute;
@@ -127,4 +123,8 @@ body {
   height: 500px;
   background: url('assets/live-music-video.jpg') no-repeat center center;
   background-size: cover;
+}
+
+.barroco-logo img {
+  width: 40%;
 }

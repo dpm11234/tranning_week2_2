@@ -1,0 +1,130 @@
+* {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.grey-hover:hover {
+  color: #a0a09f;
+  transition: all 0.3s;
+}
+
+.unchanged-hover:hover {
+  color: #DE5021 !important;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.barroco-logo img {
+  width: 40%;
+}
+
+/* font */
+
+.anton-font {
+  font-family: "Anton";
+}
+
+.pacifico-font {
+  font-family: "Pacifico";
+}
+
+.peaches-cream-font {
+  font-family: "PeachesandCreamRegularW00"
+}
+
+.playfair-font {
+  font-family: "Playfair Display", serif;
+}
+
+/* background */
+
+.bg-grey {
+  background: rgb(232,232,232);
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-black {
+  background: #000;
+}
+
+/* text */
+
+.large-text-2 {
+   font-size: 5rem !important;
+}
+
+.large-text-1 {
+  font-size: 3rem;
+}
+
+.large-text {
+  font-size: 2.4rem;
+}
+
+.small-text-1 {
+  font-size: 14px;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+
+/* color */
+
+.black-color {
+  color: #000;
+}
+
+.red-color {
+  color: #DE5021;
+}
+
+.red-color-1 {
+  color: #8B0000;
+}
+
+/* icon */
+.backslash-icon::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.backslash-icon.right-center-icon::after {
+  top: 50%;
+  right: 0;
+}
+.backslash-icon.bottom-center-icon::after {
+  bottom: 0;
+  left: 50%;
+}
+
+/* custom */
+
+.parallax {
+  margin-top: 65px;
+}
+
+.about-culture p {
+  font-size: 18px;
+  color: #2f2e2e;
+}
+
+.live-music-video {
+  height: 500px;
+  background: url('assets/live-music-video.jpg') no-repeat center center;
+  background-size: cover;
+}
